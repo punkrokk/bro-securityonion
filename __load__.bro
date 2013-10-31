@@ -6,4 +6,6 @@
 @load ./conn-add-country
 @load ./conn-add-sensorname.bro
 
-@load ./config-bro
+#temporarily commenting this out until I fix the redefs in config-bro (bro checks/installs fine if
+# this is commented out
+#@load ./config-bro
